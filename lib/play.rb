@@ -37,7 +37,8 @@ end
 
 def play(board)
   counter = 0
-  until counter  turn(board)
+  until counter == 9  
+  puts turn(board)
   counter += 1
   if counter >= 1
     break
